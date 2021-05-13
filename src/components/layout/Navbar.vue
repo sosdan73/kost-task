@@ -2,10 +2,10 @@
   <div>
     <v-app-bar
       app
-      color="primary"
+      color="teal"
       dark
     >
-      <v-item-group active-class="primary">
+      <v-item-group>
         <v-container>
           <v-row>
             <v-col

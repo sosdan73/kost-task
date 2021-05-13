@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <navbar />
-
     <v-main class="mt-4">
       <router-view/>
     </v-main>
@@ -9,7 +8,7 @@
 </template>
 
 <script>
-import navbar from './components/Navbar'
+import navbar from './components/layout/Navbar'
 
 export default {
   name: 'App',
@@ -25,7 +24,10 @@ export default {
 
 <style lang="scss">
   a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  p {
+    margin-bottom: 0;
   }
 </style>
